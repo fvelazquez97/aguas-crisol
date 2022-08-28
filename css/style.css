@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* CORRECCION DE PROBLEMA DE ALINEACION QUE TRAIA CONSIGO BOOTSRAP*/
+ul {
+  padding-left: 0; }
+
+/*INICIO ESTILOS DEL HEADER*/
+.imgLogo {
+  width: 100px;
+  border-radius: 50%;
+  border: 1px white solid; }
+
+h1 {
+  color: white; }
+
+header {
+  height: fit-content;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+  header nav {
+    background-color: #3e92cc;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s;
+    font-size: 1.4rem; }
+
+.navbar a {
+  color: white; }
+
+h2 {
+  text-align: center;
+  margin: 0 0 2.5rem 0;
+  padding: 2rem 0;
+  background-color: #2a628f;
+  color: white; }
+
+/*FIN ESTILOS DEL HEADER*/
+#productos p {
+  font-size: 1.2rem; }
+
+.cardImg {
+  width: 250px;
+  align-self: center; }
+
+section p {
+  text-align: center;
+  font-size: 1.2rem; }
+
+.imgWhatsapp {
+  width: 80px; }
+
+.whatsapp {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  z-index: 2; }
+
+/* INICIO ESTILOS DEL FOOTER */
+footer {
+  background-color: #3e92cc;
+  color: white; }
+  footer nav {
+    padding: 15px 0 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; }
+    footer nav div {
+      width: 25%;
+      padding: 1rem 0 0 0rem;
+      text-align: center; }
+      footer nav div h3 {
+        padding-bottom: 1rem; }
+
+ul {
+  list-style-type: none; }
+
+li a {
+  color: white;
+  margin: 7px 0;
+  text-decoration: none; }
+  li a nav li {
+    margin: 7px 0; }
+
+.derechos {
+  margin-top: 50px;
+  width: 100%; }
+
+/* FIN ESTILOS DEL FOOTER */
+/********* RESPONSIVE *********/
+@media (max-width: 1120px) {
+  /* RESPONSIVE DEL FOOTER */
+  footer nav li {
+    margin: 7px 0; } }
+
+@media (max-width: 900px) {
+  /* RESPONSIVE DEL FOOTER */
+  footer nav {
+    flex-direction: column;
+    align-items: center; }
+    footer nav div {
+      width: fit-content; } }
