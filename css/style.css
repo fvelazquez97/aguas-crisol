@@ -106,3 +106,8 @@ li a {
     align-items: center; }
     footer nav div {
       width: fit-content; } }
+
+@media (max-width: 900px) {
+  /* RESPONSIVE DEL HEADER */
+  h1 {
+    display: none; } }
