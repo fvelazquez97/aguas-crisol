@@ -49,6 +49,7 @@ h2 {
   padding: 2rem 0;
   background-color: $color-secundario;
   color: white;
+  animation-duration: 1s;
 }
 
 /*FIN ESTILOS DEL HEADER*/
@@ -68,17 +69,18 @@ section {
   p {
     text-align: center;
     font-size: 1.2rem;
+    margin: 0 20px 30px 20px;
   }
 }
 
 .imgWhatsapp {
-  width: 80px;
+  width: 65px;
 }
 
 .whatsapp {
   position: fixed;
-  right: 10px;
-  bottom: 50px;
+  right: 30px;
+  bottom: 55px;
   z-index: 2;
 }
 
@@ -127,6 +129,20 @@ li a {
 
 /* FIN ESTILOS DEL FOOTER */
 
+/* INICIO ESTILOS CONTACTANOS */ 
+.infoContacto {
+  font-size: 1.2rem;
+  text-align: center;
+
+    li { 
+      margin: 50px 0;
+    }
+}
+
+/* FIN ESTILOS CONTACTANOS */ 
+
+
+
 /********* RESPONSIVE *********/
 
 @media (max-width: 1120px) {
@@ -147,13 +163,11 @@ li a {
       width: fit-content;
     }
   }
-}
-
-
-@media (max-width: 900px) {
 
   /* RESPONSIVE DEL HEADER */
   h1 { display: none
   }
+
+/* RESPONSIVE CONTACTANOS */ 
 
 }

@@ -11,14 +11,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-    <!-- ******************* LINK ANIMACIONES ******************* -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
     <!-- ******************* FAVICON ******************* -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- ******************* LINK CSS ******************* -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ******************* LINK ANIMACIONES ******************* -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 
@@ -90,30 +91,33 @@
             <h2>Nuestro Productos</h2>
             <div class="row mx-4">
 
-                <div class="col-xl-4 col-md-12 col-sm-12 py-4">
+                <div class="col-xl-4 col-md-12 col-sm-12 py-4" data-aos="zoom-in" data-aos-duration="1200">
                     <div class="card shadow border border-dark text-center h-100">
                         <img src="img/bidon_comun.jpg" class="cardImg card-img-top" alt="bidon de agua">
                         <div class="card-body">
-                            <p class="card-text">Bidones retornables de 20L, 15L y 12L </p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+                                accusamus in quasi repellendus voluptatibus perferendis! </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-md-12 col-sm-12 py-4">
+                <div class="col-xl-4 col-md-12 col-sm-12 py-4" data-aos="zoom-in" data-aos-duration="1200">
                     <div class="card shadow border border-dark text-center h-100">
                         <img src="img/bidon_bajo_sodio.jpg" class="cardImg card-img-top"
                             alt="bidon de agua bajo en sodio">
                         <div class="card-body">
-                            <p class="card-text">Bidones retornables de agua bajo en sodio de 20L, 15L y 12L </p>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+                                consequatur, optio deleniti iusto iure ullam.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-md-12 col-sm-12 py-4">
+                <div class="col-xl-4 col-md-12 col-sm-12 py-4" data-aos="zoom-in" data-aos-duration="1200">
                     <div class="card shadow border border-dark text-center h-100">
                         <img src="img/soda.png" class="cardImg card-img-top" alt="sifon de soda">
                         <div class="card-body">
-                            <p class="card-text">Sifones retornables de soda </p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+                                corrupti culpa repudiandae, adipisci tenetur repellendus. </p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +127,7 @@
         <section id="nosotros">
             <h2>Nosotros</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia velit aliquam quae accusamus qui
+            <p data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia velit aliquam quae accusamus qui
                 eos
                 at praesentium porro deleniti nesciunt sint nemo, omnis libero veniam est maxime optio nobis aperiam
                 magnam
@@ -150,7 +154,7 @@
 
         <section id="porqueElegirnos">
             <h2>¿Por Qué Elegirnos?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat natus, sunt dicta ipsa quisquam.
+            <p data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat natus, sunt dicta ipsa quisquam.
                 Quidem veniam neque quia cupiditate aliquid, tenetur beatae sint laboriosam dolorum iusto placeat,
                 nobis,
                 quis est! Minima exercitationem, animi nulla possimus autem reprehenderit aliquam ipsam iste officiis
@@ -163,12 +167,11 @@
 
         <section id="contacto">
             <h2>Contactanos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum eum, officiis nisi illum voluptas
-                consectetur magnam natus ea quae dolore tempore. Sint magni qui nemo vero recusandae, aspernatur vel
-                ipsa
-                minus quidem quos? Doloremque ipsam exercitationem veniam, consectetur ipsa, fugit voluptates
-                praesentium
-                deserunt, porro ratione perspiciatis placeat ab nesciunt?</p>
+            <div class="infoContacto" data-aos="fade-right" data-aos-duration="1000">
+                <ul>
+                  <li>Horario: Lunes a Sabados de 09:00 a 19:00hs </li>
+                  <li>E-mail: aguascrisol@aguascrisol.com.ar</li>
+                  <li>Telefono: 11 5134-1745</li>
         </section>
     </main>
 
@@ -211,7 +214,17 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
 </body>
+
 </html>

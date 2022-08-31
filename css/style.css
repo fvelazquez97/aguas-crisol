@@ -37,7 +37,8 @@ h2 {
   margin: 0 0 2.5rem 0;
   padding: 2rem 0;
   background-color: #2a628f;
-  color: white; }
+  color: white;
+  animation-duration: 1s; }
 
 /*FIN ESTILOS DEL HEADER*/
 #productos p {
@@ -49,15 +50,16 @@ h2 {
 
 section p {
   text-align: center;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  margin: 0 20px 30px 20px; }
 
 .imgWhatsapp {
-  width: 80px; }
+  width: 65px; }
 
 .whatsapp {
   position: fixed;
-  right: 10px;
-  bottom: 50px;
+  right: 30px;
+  bottom: 55px;
   z-index: 2; }
 
 /* INICIO ESTILOS DEL FOOTER */
@@ -93,6 +95,14 @@ li a {
   width: 100%; }
 
 /* FIN ESTILOS DEL FOOTER */
+/* INICIO ESTILOS CONTACTANOS */
+.infoContacto {
+  font-size: 1.2rem;
+  text-align: center; }
+  .infoContacto li {
+    margin: 50px 0; }
+
+/* FIN ESTILOS CONTACTANOS */
 /********* RESPONSIVE *********/
 @media (max-width: 1120px) {
   /* RESPONSIVE DEL FOOTER */
@@ -105,9 +115,8 @@ li a {
     flex-direction: column;
     align-items: center; }
     footer nav div {
-      width: fit-content; } }
-
-@media (max-width: 900px) {
+      width: fit-content; }
   /* RESPONSIVE DEL HEADER */
   h1 {
-    display: none; } }
+    display: none; }
+  /* RESPONSIVE CONTACTANOS */ }
